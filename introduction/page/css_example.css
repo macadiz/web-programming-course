@@ -1,0 +1,12 @@
+body {
+  background-color: blue;
+}
+
+#message {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.page_button {
+  font-weight: bold;
+}

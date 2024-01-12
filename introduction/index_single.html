@@ -1,0 +1,34 @@
+<!-- This is a commentary telling that this file has the CSS and the JS code embedded in here -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Hello World</title>
+    <!-- This is the CSS code -->
+    <style>
+      body {
+        background-color: blue;
+      }
+
+      #message {
+        font-family: "Courier New", Courier, monospace;
+        color: white;
+      }
+
+      .page_button {
+        font-weight: bold;
+      }
+    </style>
+    <!-- This is the JS code -->
+    <script>
+      function changeMessage() {
+        document.getElementById("message").innerText = "Hello World JS";
+      }
+    </script>
+  </head>
+  <body>
+    <p id="message">Hello World HTML</p>
+    <button class="page_button" onclick="changeMessage()">
+      Change message
+    </button>
+  </body>
+</html>

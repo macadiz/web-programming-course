@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Hola Web</title>
+    <style>
+      #capybara {
+        border: 2px solid blue;
+      }
+    </style>
+    <script>
+      function capybaraClick() {
+        document.getElementById("capybara_text").innerHTML = "Capybara!!!";
+      }
+    </script>
+  </head>
+  <body>
+    <img id="capybara"
+    src="https://upload.wikimedia.org/wikipedia/commons/8/85/Capybara_portrait.jpg"
+    width="200px" heigth:="150px" onclick="capybaraClick()" />
+    <p id="capybara_text"></p>
+  </body>
+</html>
